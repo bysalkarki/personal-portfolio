@@ -44,12 +44,14 @@ h3 {
   .item {
     margin-top: 0;
     padding: 0.4rem 0 1rem calc(var(--section-gap) / 2);
+
+    :hover {
+      color: green;
+    }
   }
 
   i {
     top: calc(50% - 25px);
-    left: -26px;
-    position: absolute;
     border: 1px solid var(--color-border);
     background: var(--color-background);
     border-radius: 8px;
